@@ -1,0 +1,120 @@
+body {
+    background-color: #333333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+#page {
+    width: 937px;
+    margin: auto;
+    padding-right: auto;
+    padding-left: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url(images/page.png);
+    text-align: left;
+}
+
+#header {
+    width: 937px;
+    height: 195px;
+    background-image: url(images/header.png);
+    background-repeat: no-repeat;
+    clear: both;
+    padding-bottom: 10px;
+}
+
+* {
+    font-family: Verdana;
+    font-size: 97%;
+    font-weight: bold;
+}
+
+label {
+    width: 10em;
+    float: left;
+}
+
+.error {
+    float: none;
+    color: red;
+    padding-left: .5em;
+    vertical-align: top;
+}
+
+span.red {
+    color: red;
+    font-weight: bold
+}
+
+p {
+    clear: both;
+}
+
+.submit {
+    margin-left: 12em;
+}
+
+em {
+    font-weight: bold;
+    padding-right: 1em;
+    vertical-align: top;
+}
+
+#contentarea {
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    width: 570px;
+    height: 537px;
+    background-image: url(images/body.png);
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+#sidebar {
+    padding-top: 10px;
+    float: right;
+    width: 325px;
+    height: 542px;
+    background-image: url(images/sidebar.png);
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#sidebar a {
+    text-decoration: none;
+    color: #eeeccc;
+}
+
+#sidebar a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+input {
+    background-color: #AAAAAA;
+    /*background-image: url('http://mysite.com/input.gif');*/
+    border: 1px solid #555555;
+    font-family: verdana;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#footer {
+    width: 937px;
+    height: 62px;
+    background-image: url(images/footer.png);
+    clear: both;
+}
+
